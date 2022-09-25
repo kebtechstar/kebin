@@ -457,6 +457,10 @@ a:hover {
         padding-top: 6%;
     }
 
+    .slides {
+        width: 100%;
+        letter-spacing: 0;
+    }
 
     .home {
         padding: 5%;
@@ -466,6 +470,7 @@ a:hover {
     .home-logo {
         width: 20%;
         height: 15vh;
+        object-fit: contain;
     }
 
 
@@ -478,9 +483,8 @@ a:hover {
 
   
     .hero-img {
-        width: 35%;
-        height: 30vh;
-        top:  35%;
+        width: 40%;
+        top:  40%;
         right: 50%;
         transform: translateX(50%);
     }
@@ -488,11 +492,22 @@ a:hover {
     .hero-img img {
         box-shadow: 0 0 10px 5px #000000;
     }
+
+    .text {
+        margin-bottom: 5%;
+    }
+    .hero .testimony .title {
+        font-size: 2rem;
+        margin-bottom: 4%;
+        transition: 3s ease-in-out;
+        animation: titleAnimation 2s ;
+    }
     
     .show-code {
-       right: 20%;
-       transform: translateX(-20%);
+       right: 50%;
        top: 60%;
+       font-size: 2rem;
+       transform: translateX(50%);
     }
 
     .nav-bar {
@@ -588,6 +603,9 @@ a:hover {
 }
 
 
+.home {
+    padding: 0px;
+}
 
 
 }
